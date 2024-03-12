@@ -5,7 +5,7 @@ export default function Phonetic(props) {
   if (props.phonetic) {
     return (
       <div className="Phonetic">
-        <h2>{props.phonetic}</h2>
+        <h3>{props.phonetic}</h3>
       </div>
     );
   } else {

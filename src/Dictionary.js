@@ -46,15 +46,18 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
+        <div>
+          <h1>Dictionary 🔎</h1>
+        </div>
         <section>
           <form onSubmit={handleSubmit}>
-            <label>What word do you want to look up?</label>
+            <label>Find definitions, related words and more.</label>
             <input
               type="search"
               onChange={handleKeywordChange}
               autoFocus={true}
               className="form-control search-input"
-              defaultValue={props.defaultKeyword}
+              placeholder="Type a word"
             />
           </form>
           <small className="hint">i.e. paris, wine, yoga, coding</small>
