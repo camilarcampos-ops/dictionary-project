@@ -11,3 +11,7 @@
   display: block;
   margin: 0 auto;
 }
+
+.App-footer {
+  margin-top: 20px;
+}
