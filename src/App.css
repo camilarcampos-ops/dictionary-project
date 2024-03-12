@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  padding: 60px 0 100px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -9,9 +11,13 @@
 .App-logo {
   max-width: 70px;
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .App-footer {
   margin-top: 20px;
+}
+
+.App a {
+  color: #6c63ff;
 }

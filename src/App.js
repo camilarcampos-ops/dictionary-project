@@ -10,10 +10,33 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer text-center">
-          Coded by Camila Rodrigues Campos
+          Coded by{" "}
+          <a
+            href="https://crcportfolio.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Camila Rodrigues Campos
+          </a>{" "}
+          and is open-sourced onx{" "}
+          <a
+            href="https://github.com/camilarcampos-ops/dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://dictionary-project-crcportfolio.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify.
+          </a>
         </footer>
       </div>
     </div>
